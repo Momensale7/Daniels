@@ -1,0 +1,93 @@
+@media (max-width: 576px) {
+  .home-caption h3 {
+    font-size: 30px;
+  }
+
+  .home-caption h1 {
+    font-size: 22px;
+  }
+
+  .home-caption h1 span {
+    margin-bottom: -19px;
+  }
+
+    @keyframes typing-1 {
+  
+      0%,
+      33.333%,
+      100% {
+        width: 0;
+      }
+  
+      12.667%,
+      20.667% {
+        width: 148.32px;
+      }
+    }
+  
+    @keyframes typing-2 {
+  
+      0%,
+      33.333%,
+      66.667%,
+      100% {
+        width: 0;
+      }
+  
+      46%,
+      54% {
+        width: 117.32px;
+      }
+    }
+  
+    @keyframes typing-3 {
+  
+      0%,
+      66.667%,
+      100% {
+        width: 0;
+      }
+  
+      79.333%,
+      87.333% {
+        width: 105.17px;
+      }
+    }
+
+  .about-btn {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .about-btn a {
+    width: fit-content;
+    margin-block: 10px;
+  }
+
+  .sec-title {
+    font-size: 20px;
+  }
+
+}
+
+/* ...............Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/*.............. Medium devices (tablets, 768px and up) ..............*/
+@media (min-width: 768px) {
+ 
+}
+
+/* ...............Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  nav .navbar-nav>li {
+    margin: 8px 0px 8px 30px;
+  }
+}
+
+/*................X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/*............... XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
